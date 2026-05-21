@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<body class="card">
+   <header id="Newton">
+       <img src=https://upload.wikimedia.org/wikipedia/commons/3/3b/Portrait_of_Sir_Isaac_Newton%2C_1689.jpg
+     class="profile">
+       <div class="text">
+       <h1>Isaac Newton</h1>
+       <p>Physicist & Mathematician</p>
+       <a href="#contact" class="btn">Hire Me</a>
+       </div>
+  </header>
+<section id="about">
+    <div class="about-content">
+     <div class="about-text">
+     <h2>About Me</h2>
+     <p>Hello! I’m Isaac Newton. I am passionate about mathematics, physics, and the natural laws of the universe. I am a skilled mathematician and theoretical physicist, and I have contributed to the development of calculus, optics, and classical mechanics.</p>
+     </div>
+    <div class="about-info">
+     <p><span>Age</span> 84</p>
+     <p><span>Email</span> newton@physics.com</p>
+     <p><span>Phone</span> +44 000 000 0000</p>
+     <p><span>Address</span> Woolsthorpe Manor, Lincolnshire, England</p>
+    </div>
+    </div>
+</section>
+<section id="skills" >
+      <h2>Professional Skills</h2>
+  <div class="skills-container">
+    <div class="skill">
+      <p>Mathematics</p>
+      <div class="bar"><div class="fill math"></div></div>
+    </div>
+
+    <div class="skill">
+      <p>Physics (Classical Mechanics)</p>
+      <div class="bar"><div class="fill physics"></div></div>
+    </div>
+
+    <div class="skill">
+      <p>Calculus</p>
+      <div class="bar"><div class="fill calculus"></div></div>
+    </div>
+
+    <div class="skill">
+      <p>Optics</p>
+      <div class="bar"><div class="fill optics"></div></div>
+    </div>
+
+    <div class="skill">
+      <p>Scientific Writing</p>
+      <div class="bar"><div class="fill writing"></div></div>
+    </div>
+
+    <div class="skill">
+      <p>Algebra</p>
+      <div class="bar"><div class="fill algebra"></div></div>
+    </div>
+  </div>
+</section>
+  <section id="experience">
+  <h2>Work Experience</h2>
+  <div class="exp-item">
+    <h3>Lucasian Professor of Mathematics</h3>
+    <p class="place">University of Cambridge | 1669 – 1701</p>
+    <ul>
+      <li>Delivered lectures on mathematics and optics</li>
+      <li>Developed early foundations of calculus and mechanics</li>
+      <li>Conducted experiments on light and prisms</li>
+    </ul>
+  </div>
+
+  <div class="exp-item">
+    <h3>President of the Royal Society</h3>
+    <p class="place">Royal Society | 1703 – 1727</p>
+    <ul>
+      <li>Led scientific research and academic collaboration</li>
+      <li>Supervised publication of scientific papers</li>
+      <li>Supported advancement of modern science</li>
+    </ul>
+  </div>
+
+  <div class="exp-item">
+    <h3>Master of the Mint</h3>
+    <p class="place">Royal Mint | 1699 – 1727</p>
+    <ul>
+      <li>Managed England’s currency reform</li>
+      <li>Improved coin production systems</li>
+      <li>Reduced counterfeiting activities</li>
+    </ul>
+  </div>
+</section>
+  <section id="achievements">
+  <h2>Major Achievements</h2>
+  <div class="achieve-grid">
+    <div class="achievement laws">
+      <h3>Laws of Motion</h3>
+      <p>Formulated the three laws of motion that became the foundation of classical mechanics.</p>
+    </div>
+    <div class="achievement gravity">
+      <h3>Universal Gravitation</h3>
+      <p>Developed the law of universal gravitation explaining planetary motion and gravity.</p>
+    </div>
+    <div class="achievement Mcalculus">
+      <h3>Calculus</h3>
+      <p>Co-developed calculus, transforming modern mathematics and physics.</p>
+    </div>
+    <div class="achievement Moptics">
+      <h3>Optics Research</h3>
+      <p>Discovered that white light is made of different colors through prism experiments.</p>
+    </div>
+  </div>
+</section>
+  <footer>
+    <div id="contact">
+      <h2>Contact</h2>
+      <p>Email: newton@physics.com</p>
+    </div>
+  </footer>
+</body>
+<style>
+.card{
+  width: 800px;
+  background:white;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.1);
+  margin:auto;
+}
+#Newton{
+  background-color: #1792c7;
+  display:flex;
+  align-items:right;
+  gap:100px;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+}
+.profile{
+  width:200px;
+  border-radius:80%;
+}
+.btn{
+  display:inline-block;
+  margin-top:40px;
+  padding:10px 15px;
+  background-color:#22cf9b;
+  color:white;
+  border-radius:8px;
+  text-decoration: none;
+}
+body{
+  font-family: Arial, sans-serif;
+  color:#444;
+}
+.about-content{
+  display:flex;
+  justify-content:space-between;
+  gap:40px;
+  margin-top:20px;
+  padding-bottom:20px;
+  border-bottom:1px solid #ddd;
+}
+.about-info span{
+  font-weight:600;
+  color:#333;
+}
+.about-info{
+  flex:1;
+  margin-top:80px;
+}
+.about-info p{
+  display:flex;
+  justify-content:space-between;
+  margin:10px 0;
+  font-size:15px;
+}
+.about-text{
+  flex:1;
+  line-height:1.6;
+  font-size:16px;
+}
+#skills h2{
+  font-size:28px;
+  margin-bottom:20px;
+}
+.skills-container{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:25px 50px;
+}
+.skill p{
+  margin:0 0 8px 0;
+  font-size:16px;
+}
+.bar{
+  width:100%;
+  height:12px;
+  background:#e9ecef;
+  border-radius:10px;
+}
+.fill{
+  height:100%;
+  border-radius:10px;
+  background:#4a90e2; 
+}
+.math{ width:95%; background:#4a90e2; }
+.physics{ width:92%; background:#4a90e2; }
+.calculus{ width:90%; background:#4a90e2; }
+.optics{ width:85%; background:#4a90e2; }
+.writing{ width:80%; background:#4a90e2; }
+.algebra{ width:93%; background:#4a90e2; }
+#skills{
+  padding-bottom:20px;
+  border-bottom:1px solid #ddd;
+}
+#experience h2{
+  font-size:28px;
+  margin-bottom:20px;
+}
+.exp-item{
+  background:white;
+  border:1px solid #e6e6e6;
+  border-left:4px solid #4a90e2;
+  padding:20px;
+  margin-bottom:20px;
+  border-radius:10px;
+}
+.exp-item h3{
+  margin:0;
+  font-size:18px;
+}
+.place{
+  color:#777;
+  margin:5px 0 10px 0;
+  font-size:14px;
+}
+.exp-item ul{
+  margin:0;
+  padding-left:20px;
+}
+.exp-item li{
+  margin-bottom:6px;
+  font-size:14px;
+}
+#experience{
+  padding-bottom:20px;
+  border-bottom:1px solid #ddd;
+}
+#achievements h2{
+  font-size:28px;
+  margin-bottom:20px;
+}
+.achieve-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+.achievement{
+  padding:18px;
+  border-radius:12px;
+  color:white;
+  box-shadow:0 4px 15px rgba(0,0,0,0.08);
+  width: 350px;
+}
+.achievement{
+  margin:0 0 8px 0;
+}
+.achievement{
+  margin:0;
+  font-size:14px;
+  line-height:1.5;
+}
+.laws{
+  background:#3b82f6; 
+}
+.gravity{
+  background:#10b981; 
+}
+.Mcalculus {
+  background:#8b5cf6; 
+}
+.Moptics {
+  background:#f59e0b; 
+}
+#achievements{
+  padding-bottom:20px;
+  border-bottom:1px solid #ddd;
+}
+</style>
